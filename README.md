@@ -8,9 +8,9 @@ I'm currently preparing for my CCNA 200-301 Exam. During this preparation, I bui
 
 LAB 1 : In this lab ,I assigned appropiate IP address to the router interfaces and saved the running config to startup config. PC-1, PC-2 & PC-3 can communicate with each other now.
 
-LAb 2 : In this lab, file transfer protocols such as FTP & TFTP are used to transfer files from server to the router.
+FTP&TFTP lab : In this lab, file transfer protocols such as FTP & TFTP are used to transfer files from server to the router.
 
-LAB 3 : In this lab, R1 is the DHCP server. DHCP pools are created for 3 different networks. R2 is assigned as a DHCP relay agent for the HR network.   
+DHCP lab : In this lab, R1 is the DHCP server. DHCP pools are created for 3 different networks. R2 is assigned as a DHCP relay agent for the HR network.   
 
 
 3 TIER ARCH : A model of an enterprize network with a access layer, distribution layer and a core layer. Layer 2 trunking is used to seperate vlans. OSPF is used in to configure routes in the network. Layer 3 of the network(CORE layer) is in a different vlan seperated from the other layers. A server provides the IP address to the network via DHCP. A default route to internet with NAT is used to translate IP address going out. HSRP is used to provide redundancy to the network.
