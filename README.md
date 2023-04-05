@@ -13,4 +13,4 @@ LAb 2 : In this lab, file transfer protocols such as FTP & TFTP are used to tran
 LAB 3 : In this lab, R1 is the DHCP server. DHCP pools are created for 3 different networks. R2 is assigned as a DHCP relay agent for the HR network.   
 
 
-Enterprise network : This lab creates a WAN of 3 remote locations. There is a remote DHCP server at one location which provides IP addressess to all the end hosts in WAN. Routes are dynamically allocated via RIPv2. A server in remote location provide DNS, ftp, syslog and NTP services to WAN.
+3 TIER ARCH : A model of an enterprize network with a access layer, distribution layer and a core layer. Layer 2 trunking is used to seperate vlans. OSPF is used in to configure routes in the network. Layer 3 of the network(CORE layer) is in a different vlan seperated from the other layers. A server provides the IP address to the network via DHCP. A default route to internet with NAT is used to translate IP address going out. HSRP is used to provide redundancy to the network.
