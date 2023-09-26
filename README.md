@@ -14,3 +14,6 @@ DHCP lab : In this lab, R1 is the DHCP server. DHCP pools are created for 3 diff
 
 
 3 TIER ARCH : A model of an enterprize network with a access layer, distribution layer and a core layer. Layer 2 trunking is used to seperate vlans. OSPF is used in to configure routes in the network. Layer 3 of the network(CORE layer) is in a different vlan seperated from the other layers. A server provides the IP address to the network via DHCP. A default route to internet with NAT is used to translate IP address going out. HSRP is used to provide redundancy to the network.
+
+
+OSPF lab : In this lab, PC in local network send traffic to ISP router. To simulate real world, there are 4 routers which are part of the company's internal network. OSPF is used as the routing protocol. 
