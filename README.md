@@ -17,3 +17,6 @@ DHCP lab : In this lab, R1 is the DHCP server. DHCP pools are created for 3 diff
 
 
 OSPF lab : In this lab, PC in local network send traffic to ISP router. To simulate real world, there are 4 routers which are part of the company's internal network. OSPF is used as the routing protocol. OSPF is enabled on each interface of the router. 
+
+
+WLC Lab : A network consisting of lightweight wireless accesspoint, Wireless Lan controler, DHCP server, a layer 3 switch and clients. DHCP server is used to give IP address to access points. Configured WLC with two WLAN. A guest network with no security functions and a staff network with WPA-WPA2 with AES encryption.
